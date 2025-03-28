@@ -1,0 +1,188 @@
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 1350px;
+    }
+}
+
+
+@media screen and (max-width:1199px) {
+     /*home service gallery*/
+    .home_srvc_gallery_captions {
+        padding: 15px;
+    }
+    .home_srvc_gallery_captions .glr_title:after {
+        width: 80px;
+    }
+    /*home service gallery*/
+}
+@media screen and (max-width:991px) {
+    /*=== banner css ===*/
+    .ir_banner_captions .bannerheding {
+        font-size: 44px;
+        line-height: 61px;
+    }
+    .ir_banner_captions .bannerlogo img {
+        width: 150px;
+    }
+    /*=== banner css ===*/
+    /*home service gallery*/
+    .home_srvc_gallery_captions {
+        padding: 10px;
+    }
+    .home_srvc_gallery_captions .glr_title {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .home_srvc_gallery_captions .glr_para {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    /*home service gallery*/
+}
+@media screen and (max-width:991px) {
+    /* header css */
+    .main_header {
+        padding: 15px 0;
+    }
+    .nav_close_btn {
+        display: block;
+    }
+    .nav_toggle {
+        display: inline-block;
+    }
+    .site_logo_dv {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hdr_right_part {
+        width: 100%;
+    }
+    .navigation_menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 300px;
+        height: 100vh;
+        background: #000;
+        overflow-y: auto;
+        padding: 45px 20px;
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transform: translateX(-100%);
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: all ease-in 0.25s;
+        -moz-transition: all ease-in 0.25s;
+        transition: all ease-in 0.25s;
+        z-index: 1;
+    }
+    .navigation_menu.menu_open {
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+    }
+    .navigation_menu > ul > li {
+        padding: 7px 0px;
+        width: 100%;
+    }
+    .navigation_menu > ul > li > a {
+        padding: 0;
+    }
+    /* header css */
+}
+
+@media screen and (max-width:767px) {
+    /*=== banner css ===*/
+    .ir_banner_captions {
+        text-align: center;
+    }
+    .ir_banner_captions .banner_heding_dv {
+        width: 100%;
+    }
+    .ir_banner_captions .bannerheding {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .ir_banner_captions .bannerheding br {
+        display: none;
+    }
+    .ir_banner_captions .bannerlogo {
+        width: 100%;
+    }
+    .ir_banner_captions .bannerlogo img {
+        width: 100px;
+    }
+    /*=== banner css ===*/
+    .h_userinfo_dv {
+        margin-left: 10px;
+        gap: 0;
+        padding: 0;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+    }
+    .h_userinfo_dv .texts {
+        display: none;
+    }
+    .h_userinfo_dv img {
+        width: 20px;
+    }
+    .h_notification_icon {
+        width: 36px;
+        height: 36px;
+    }
+    .h_notification_icon img {
+        width: 20px;
+    }
+     /*home service gallery*/
+    .home_srvc_gallery_captions {
+        padding: 15px;
+    }
+    .home_srvc_gallery_captions .glr_title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .home_srvc_gallery_captions .glr_para {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .home_srvc_gallery_colm {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .home_srvc_gallery_items {
+        height: 450px;
+    }
+    .home_srvc_gallery_colm:hover {
+        flex: 0 0 auto;
+    }
+    .home_srvc_gallery_colm:focus .home_srvc_gallery_captions {
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+      }
+      .home_srvc_gallery_colm:focus .home_srvc_gallery_captions .glr_para {
+        opacity: 1;
+        visibility: visible;
+      }
+    /*home service gallery*/
+    /*=== footer css ===*/
+    .bottom_footer_inner {
+        padding: 8px 15px;
+        text-align: center;
+    }
+    .footer_brands_logoimg {
+        margin-bottom: 9px;
+    }
+    /*=== footer css ===*/
+}
